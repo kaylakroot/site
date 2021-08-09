@@ -105,8 +105,13 @@ color_scheme: nil
 ga_tracking: UA-199869843-1
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
+
+languages: ["en", "tr"]
+
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-multiple-languages-plugin
 
 kramdown:
   syntax_highlighter_opts:
